@@ -476,3 +476,5 @@ To connect a live Supabase or PostgreSQL database:
 
 This project is licensed under the [MIT License](LICENSE).
 Built with ❤️ for placement-ready software engineers.
+#   C o d e p a t h  
+ 
