@@ -1,0 +1,21 @@
+{
+  "name": "codepath-platform",
+  "version": "1.0.0",
+  "description": "CodePath - From Zero to Placement Ready full-stack coding education & placement preparation platform",
+  "scripts": {
+    "install:all": "npm install && npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "build": "npm --prefix frontend run build",
+    "db:migrate": "npm --prefix backend run db:migrate",
+    "test:backend": "npm --prefix backend test",
+    "test": "npm --prefix backend test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["education", "dsa", "leetcode", "react", "nodejs", "express", "supabase"],
+  "author": "CodePath Team",
+  "license": "MIT"
+}
